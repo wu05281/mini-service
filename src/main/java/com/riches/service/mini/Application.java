@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @SpringBootApplication
-@EnableScheduling
+@EnableScheduling//╪стьхннЯ
 public class Application implements EmbeddedServletContainerCustomizer {  
 
 	@Autowired
