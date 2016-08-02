@@ -7,4 +7,4 @@ springBoot+jdbc+task集成样例
 <!-- 用dubbo协议在20880端口暴露服务 -->
 <dubbo:protocol name="dubbo" port="20881" />
 zookeeper集群配置：
-<dubbo:registry address="zookeeper://127.0.0.1:2181?backup=127.0.0.1:2182,127.0.0.1:2183" check="false" subscribe="false" register=""></dubbo:registry>
+<!--<dubbo:registry address="zookeeper://127.0.0.1:2181?backup=127.0.0.1:2182,127.0.0.1:2183" check="false" subscribe="false" register=""></dubbo:registry>
