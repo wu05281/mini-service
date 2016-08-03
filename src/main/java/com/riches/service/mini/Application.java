@@ -41,6 +41,6 @@ public class Application implements EmbeddedServletContainerCustomizer {
 	}
 	//更改默认启动端口号
 	public void customize(ConfigurableEmbeddedServletContainer container) {
-		  container.setPort(1002);  
+		  container.setPort(1001);  
 	}
 }
