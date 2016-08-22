@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 //@EnableScheduling//加载任务
 @EnableAutoConfiguration
-@ImportResource({"classpath:dubboContext.xml"}) //加入dubbo的bean的xml文件   
+@ImportResource({"classpath:dubbo-provider.xml"}) //加入dubbo的bean的xml文件   
 public class Application implements EmbeddedServletContainerCustomizer {  
 
 	@Autowired
@@ -41,6 +41,6 @@ public class Application implements EmbeddedServletContainerCustomizer {
 	}
 	//更改默认启动端口号
 	public void customize(ConfigurableEmbeddedServletContainer container) {
-		  container.setPort(1001);  
+		  container.setPort(1002);  
 	}
 }
